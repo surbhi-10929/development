@@ -1,0 +1,52 @@
+.wrapper {
+  width: 100%;
+  height: 94vh;
+  .google_signIn {
+    border: 1px solid #ccc;
+    width: 50%;
+    height: 95%;
+    margin-top: 2% !important;
+    margin: auto;
+    display: flex;
+    .leftPanel {
+      width: 50%;
+      height: 100%;
+      background: rgba(241, 70, 70, 0.9);
+      .moglix_logo {
+        width: 55%;
+        margin: auto;
+        position: relative;
+        top: 38%;
+        img {
+          width: 100%;
+        }
+        h5{
+            color: white;
+            font-size: 26px;
+            margin-top: 8px;
+            text-align: center;
+        }
+      }
+    }
+    .rightPanel {
+      width: 50%;
+      background: white;
+      height: 100%;
+      button {
+        box-shadow: 0px 4px 5px 0.5px #ccc;
+        background: none;
+        border: none;
+        width: 85%;
+        height: 40px;
+        position: relative;
+        top: 41%;
+        left: 8%;
+        font-size: 15px;
+        img {
+          position: relative;
+          right: 50px;
+        }
+      }
+    }
+  }
+}
